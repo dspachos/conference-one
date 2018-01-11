@@ -1,0 +1,22 @@
+{
+  "name": "tmp",
+  "private": true,
+  "dependencies": {
+    "bootstrap": "~4.0.0-alpha.6",
+    "modernizr": "~2.8.1",
+    "font-awesome": "fontawesome#^4.7.0",
+    "zooming": "^1.2.1"
+  },
+  "overrides": {
+    "bootstrap": {
+      "main": [
+        "scss/bootstrap.scss",
+        "dist/js/bootstrap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.4.1"
+  }
+}
